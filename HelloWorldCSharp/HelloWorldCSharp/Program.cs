@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HelloWorldCSharp {
     public class Program {
         public static void Main(string[] args) {
-            Console.WriteLine("Good Bye World");
+            Console.WriteLine("Good Bye World".ToUpper());
             Console.ReadLine();
         }
     }
